@@ -13,3 +13,4 @@ app.get('/', (req, res) => {
 
 var PORT = 9000;
 app.listen(PORT);
+console.log("Server live on PORT: " + PORT);
